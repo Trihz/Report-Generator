@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.site_info{
+    height: 17vh;
+    width: 150vh;
+    background-color: white;
+    margin-top: 5vh;
+}
+.site_info_child{
+    height: 4vh;
+    background-color: transparent;
+    display: flex;
+}
+.site_info_child_title{
+    width: 40vh;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 2vh;
+}
+.site_info_child_title P{
+    font-size: 2vh;
+    color: black;
+    font-weight: 600;
+}
+.site_info_child_input{
+    width: 50vh;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+}
+
+
+.weather_container{
+    height: 15vh;
+    width: 150vh;
+    background-color: transparent;
+    margin-top: 5vh;
+}
+.weather_title{
+    color: black;
+    font-size: 2.5vh;
+    font-weight: 600;
+}
+.weather_container_child{
+    height: 7vh;
+    width: 100vh;
+    background-color: transparent;
+    display: flex;
+    gap: 2vh;
+}
+.weather_container_child_element{
+    display: flex;
+    align-items: center;
+}
+.weather_container_child_element p{
+    font-size: 2vh;
+    font-weight: 500;
+    margin-right: 1vh;
+}
+
+
+.temperature_container{
+    height: 12vh;
+    width: 150vh;
+    background-color: transparent;
+}
+.temperature_title{
+    color: black;
+    font-size: 2.5vh;
+    font-weight: 600;
+}
+
+
+
+.labor_container{
+    height: 50vh;
+    width: 150vh;
+    background-color: transparent;
+}
+.labor_title{
+    color: black;
+    font-size: 2.5vh;
+    font-weight: 600;
+}
+.labor_sutitle{
+    color: black;
+    font-size: 2.4vh;
+    font-weight: 600;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+.skilled_labor_container{
+    height: 16vh;
+    width: 150vh;
+    background-color: transparent;
+}
+.skilled_labor_container1{
+    height: 5vh;
+    width: 150vh;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.skilled_labor_container1_child{
+    height: 5vh;
+    width: 40vh;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: black;
+    font-size: 2.3vh;
+    font-weight: 500;
+}
+.skilled_labor_container2{
+    height: 5vh;
+    width: 150vh;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-content: start;
+}
+
+
+
+
+.equipment_container{
+    height: 40vh;
+    width: 100vh;
+    background-color: transparent;
+    margin-bottom: 10vh;
+}
+.equipment_title{
+    color: black;
+    font-size: 2.5vh;
+    font-weight: 600;
+}
+.equipment_container{
+    height: 16vh;
+    width: 150vh;
+    background-color: transparent;
+}
+.equipment_container1{
+    height: 5vh;
+    width: 150vh;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.equipment_container1_child{
+    height: 5vh;
+    width: 35vh;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: black;
+    font-size: 2.3vh;
+    font-weight: 500;
+}
+.equipment_container2{
+    height: 5vh;
+    width: 150vh;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-content: start;
+}
+
+
+
+
+.safety_container{
+    height: 80vh;
+    width: 150vh;
+    background-color: transparent;
+    margin-bottom: 5vh;
+}
+.safety_title{
+    color: black;
+    font-size: 2.5vh;
+    font-weight: 600;
+}
+.safety_subtitle{
+    color: black;
+    font-size: 2.4vh;
+    font-weight: 500;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+
+
+
+.recommendations_container{
+    height: 40vh;
+    width: 150vh;
+    background-color: transparent;
+    margin-bottom: 5vh;
+}
+.recommendations_title{
+    color: black;
+    font-size: 2.5vh;
+    font-weight: 600;
+    margin-bottom: 3vh;
+}
+
+
+
+.declaration_container{
+    height: 20vh;
+    width: 150vh;
+    background-color: transparent;
+    margin-bottom: 5vh;
+}
+.declaration_container p input[type="text"] {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black; 
+    outline: none; 
+}
+.declaration_container p {
+    font-size: 2.8vh;
+    line-height: 2;
+  }
