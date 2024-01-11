@@ -356,9 +356,11 @@
             <div class="pdf_container">
                 <label for="additional_images[]" style="margin-bottom: 5vh;color: black; font-size: 3vh; font-weight: bold">Attachments(Optional)</label>
                 <input type="file" name="additional_images[]" accept="image/*" multiple><br><br>
-                <label for="logo1"  style="margin-bottom: 5vh;color: black; font-size: 3vh; font-weight: bold">Logo 1 (Optional)</label>
+                <label for="central_logo"  style="margin-bottom: 5vh;color: black; font-size: 3vh; font-weight: bold">Central Logo (Optional)</label>
+                <input type="file" name="central_logo" accept="image/*"><br><br>
+                <label for="logo1"  style="margin-bottom: 5vh;color: black; font-size: 3vh; font-weight: bold">Left Logo (Optional)</label>
                 <input type="file" name="logo1" accept="image/*"><br><br>
-                <label for="logo2"  style="margin-bottom: 5vh;color: black; font-size: 3vh; font-weight: bold">Logo 2 (Optional)</label>
+                <label for="logo2"  style="margin-bottom: 5vh;color: black; font-size: 3vh; font-weight: bold">Right Logo (Optional)</label>
                 <input type="file" name="logo2" accept="image/*"><br><br>
                 <button type="submit" name="generate_pdf_button">GENERATE PDF</button>
             </div>

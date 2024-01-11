@@ -124,7 +124,14 @@
         $cellWidth_Weather = 31.5;
 
 
-        /// LOGO 1 AND LOGO 2
+        /// LOGOS
+        if ((isset($_FILES['central_logo']['tmp_name']) && $_FILES['central_logo']['error'] === UPLOAD_ERR_OK)) {
+          $central_logo = $uploadDir . basename($_FILES['central_logo']['name']);
+          move_uploaded_file($_FILES['central_logo']['tmp_name'], $central_logo); 
+
+          $pdf->Image($central_logo, 95, 5, 20, '', '', '', 'T', false, 400, '', false, false, 0, false, false, false);
+          $pdf->Ln(25);
+        }
         if ((isset($_FILES['logo1']['tmp_name']) && $_FILES['logo1']['error'] === UPLOAD_ERR_OK)) {
             $logo1 = $uploadDir . basename($_FILES['logo1']['name']);
             move_uploaded_file($_FILES['logo1']['tmp_name'], $logo1); 
